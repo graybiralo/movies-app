@@ -1,0 +1,13 @@
+{% extends 'movies/_base.html' %}
+
+{% block title %} <title>About</title> {% endblock  %}
+
+{% block content %}
+    <h1>Genre i like in Movies</h1>
+    <ul>
+        <li> Thriller </li>
+        <li> Slice of Life </li>
+    </ul>
+    {% load static %}
+    <img style="width:100px;" src="{% static 'movies/ayanokoji.jpg' %}" alt = "About Me picture"
+{% endblock  %}
